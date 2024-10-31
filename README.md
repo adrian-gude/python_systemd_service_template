@@ -76,11 +76,11 @@ sudo systemctl enable <myservice>.service
 ## Verificar el estado del servicio
 Puedes comprobar si el servicio está activo:
 ```bash 
-sudo systemctl status telegram_bot.service
+sudo systemctl status <my_service>.service
 ```
 
 ## Ver los logs del servicio
 Para ver los registros generados por tu script:
 ```bash 
-sudo journalctl -u telegram_bot.service -f
+sudo journalctl -u <my_service>.service -f
 ```
