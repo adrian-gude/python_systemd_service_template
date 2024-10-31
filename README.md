@@ -23,7 +23,7 @@ Coloca tu script y el archivo .env en un directorio específico, por ejemplo:
 
 Crea un archivo llamado <myservice>.service en el directorio **/etc/systemd/system/**
 ```bash
-sudo nano /etc/systemd/system/<nombre_servicio>.service
+sudo nano /etc/systemd/system/<my_service>.service
 ```
 
 ## Contenido del servicio
