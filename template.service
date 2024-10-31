@@ -1,0 +1,14 @@
+[Unit]
+Description=Descripción del servicio
+After=network.target
+
+[Service]
+Type=simple
+User=tu_usuario
+WorkingDirectory=<path de la carpeta del proyecto>
+ExecStart=<path/entorno/virtual> </path/script.py>
+Restart=on-failure
+EnvironmentFile=<path/variables/entorno>
+
+[Install]
+WantedBy=multi-user.target
